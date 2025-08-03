@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 const LINKS = [
@@ -12,11 +12,11 @@ const LINKS = [
 
 const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.facebook.com/?locale=hu_HU",
     icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/",
     icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
   },
   {
@@ -30,7 +30,6 @@ const Footer = () => {
     <footer className="bg-transparent py-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center pb-8 border-b border-gray-700">
-          
           <nav className="mb-8 md:mb-0 w-full md:w-auto">
             <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 text-white text-center md:text-left">
               {LINKS.map((link, index) => (
@@ -60,9 +59,11 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        
+
         <div className="mt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Restaura. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Restaura. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
