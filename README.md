@@ -67,7 +67,7 @@ Könyvtárak:
 - React-router-dom
 
 - Tailwind
-- 
+
 <img width="1920" height="1080" alt="Home" src="https://github.com/user-attachments/assets/f60fb574-be2a-4252-b4b0-f80a4fcc2773" />
 
 <img width="1734" height="930" alt="Menu" src="https://github.com/user-attachments/assets/4ff07932-65a7-4d94-a3bd-b8f3bc59feb4" />
